@@ -1,0 +1,8 @@
+{
+  "name": "my_coockiecutter",
+  "repo_name": "cookiecutter-{{ cookiecutter.name }}",
+  "_copy_without_render": [
+      "cookiecutter.json",
+      "{{ cookiecutter.repo_name }}"
+  ]
+}
