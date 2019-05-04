@@ -1,8 +1,10 @@
 {
   "name": "my_coockiecutter",
   "repo_name": "cookiecutter-{{ cookiecutter.name }}",
+  "github_username": "my_github_username",
   "_copy_without_render": [
       "cookiecutter.json",
+      "hooks/post_gen_project.py",
       "{{ cookiecutter.repo_name }}"
   ]
 }

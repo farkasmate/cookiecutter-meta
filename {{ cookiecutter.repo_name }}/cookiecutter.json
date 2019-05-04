@@ -1,4 +1,5 @@
 {
   "name": "my_coockiecutter",
-  "repo_name": "cookiecutter-{{ cookiecutter.name }}"
+  "repo_name": "cookiecutter-{{ cookiecutter.name }}",
+  "github_username": "my_github_username"
 }

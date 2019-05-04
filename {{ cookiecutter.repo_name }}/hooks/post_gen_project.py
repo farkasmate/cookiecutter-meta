@@ -12,3 +12,6 @@ if code == 0:
 
 if code == 0:
   code = run(['git', 'commit', '--message', 'Initial commit'])
+
+if code == 0:
+  code = run(['git', 'remote', 'add', 'origin', 'git@github.com:{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}.git'])
