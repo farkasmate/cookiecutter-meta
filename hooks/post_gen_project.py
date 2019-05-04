@@ -15,3 +15,7 @@ if code == 0:
 
 if code == 0:
   code = run(['git', 'remote', 'add', 'origin', 'git@github.com:{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}.git'])
+
+print('To add {{ cookiecutter.repo_name }} submodule, run:')
+print('  git submodule add git@github.com:{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}.git')
+print('  git submodule absorbgitdirs')
