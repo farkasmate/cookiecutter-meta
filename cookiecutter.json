@@ -1,5 +1,5 @@
 {
-  "name": "my_coockiecutter",
+  "name": "my_cookiecutter",
   "repo_name": "cookiecutter-{{ cookiecutter.name }}",
   "github_username": "my_github_username",
   "_copy_without_render": [
